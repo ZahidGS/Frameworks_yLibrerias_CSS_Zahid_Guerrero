@@ -1,0 +1,64 @@
+
+body{
+	background: #667292;
+}
+
+    .size-12 { font-size: 12px; }
+    .size-14 { font-size: 14px; }
+    .size-16 { font-size: 16px; }
+    .size-18 { font-size: 18px; }
+    .size-21 { font-size: 21px; }
+    .size-24 { font-size: 24px; }
+    .size-32 { font-size: 32px; }
+    .size-48 { font-size: 48px; }
+    .size-64 { font-size: 64px; }
+    .size-96 { font-size: 96px; }
+
+
+.margenMD{
+	margin: 1%;
+}
+
+header div img{
+	margin: 5%;
+	width: 50%;
+	height: 50%;
+}
+
+img{
+	width: 30%;
+	height: 30%;
+}
+
+
+.primero{
+	background: #5b9aa0;
+}
+
+
+.segundo{
+	background: #d6d4e0;
+}
+
+.tercero{
+	background: #b8a9c9;
+}
+
+.cuarto{
+	background: #622569;
+}
+
+
+.espaciointerno{
+	padding: 1%;
+}
+
+.ancho01{
+	width: 100%;
+	height: auto;
+}
+
+.maxancho{
+	max-width: 100px;
+	height: auto;
+}
