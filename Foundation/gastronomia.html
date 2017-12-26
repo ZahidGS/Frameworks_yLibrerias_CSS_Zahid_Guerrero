@@ -4,23 +4,26 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gastronomia</title>
+    <title>Gastronomía</title>
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="icons/foundation-icons.css" />
     <style>
       
+      /*MARCAR LINK VISITADO*/
      a.visitado:visited {
         font-weight: bold;
         color: red;
       }
 
+    /*FONDO DE PAGINA*/
     .fondo {
       background-image: url("img/cocina02.jpg");
       background-attachment: fixed;
       background-size: cover;
     }
 
+    /*COLOR DE TRANSPARENCIA*/
     .transparencia { 
       background-color: rgba(98, 87, 80, 0.5)
       
@@ -31,6 +34,8 @@
     </style>
   </head>
   <body class="fondo">
+
+    <!-- ENCABEZADO -->
     <div class="grid-container transparencia">
       <div class="secondary callout grid-x grid-marging-x">
         <div class="small-12 large-4 cell">
@@ -45,12 +50,13 @@
         <div class="callout">
           
 
+                  <!-- BUSQUEDA -->
                   <div class="input-group">
                     <input type="text" placeholder="Buscar..." class="input-group-field" />
                     <a href="#" class="input-group-label"><span><i class="step fi-magnifying-glass size-24"></i></span></a>
                   </div>
 
-
+                  <!-- NAVEGACION -->
                   <div class="grid-y">
                     <a class="button warning">Inicio</a>
                     <a class="button warning">El plato especial</a>
@@ -61,6 +67,7 @@
                   <hr class="show-for-medium" />
 
 
+                <!-- SECCION FAVORITOS -->
                     <h3 class="show-for-medium">Favoritos</h3>
                   <div class="grid-x grid-padding-x show-for-medium">
 
@@ -103,6 +110,8 @@
 
                   <hr />
 
+
+                  <!-- HISTORIAL DE VISITADOS -->
                   <ul class="vertical menu">
                     <li class="menu-text">Historial</li>
                     <li><a class="visitado" href="#">Los primeros pasos a cocinar</a></li>
@@ -122,7 +131,7 @@
       <div class="large-7 cell">
         <div class="callout">
           
-
+          <!-- CONTENIDO -->
           <div class="grid-x grid-padding-x">
             <div class="large-12 cell">
               <div class="primary callout">
@@ -136,6 +145,7 @@
 
                 <hr>
 
+              <!-- REGISTRO DE COMENTARIOS -->
                 <div class="input-group">
                 <span class="input-group-label"><i class="step fi-results-demographics size-48"></i></span>
                 
@@ -146,6 +156,8 @@
                   <button type="button" class="alert button small ">Publicar</button>
                 </div>
 
+
+                <!-- HISTORIAL COMENTARIOS -->
                 <div class="grid-x callout warning" >
                   <div class="cell small-2">
                         <img src="img/mujer3.png">
@@ -194,6 +206,7 @@
 
                 <hr>
 
+              <!-- REGISTRO DE COMENTARIOS -->
                 <div class="input-group">
                 <span class="input-group-label"><i class="step fi-results-demographics size-48"></i></span>
                 
@@ -204,6 +217,8 @@
                   <button type="button" class="alert button small ">Publicar</button>
                 </div>
 
+
+                <!-- HISTORIAL DE COMENTARIOS -->
                 <div class="grid-x callout warning" >
                   <div class="cell small-2">
                         <img src="img/hombre3.png">

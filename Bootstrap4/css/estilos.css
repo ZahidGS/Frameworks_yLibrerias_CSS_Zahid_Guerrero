@@ -1,8 +1,12 @@
 
+
+/*COLOR DE FONDO*/
 body{
 	background: #667292;
 }
 
+
+/*TAMANIOS DE FUENTES E ICONOS*/
     .size-12 { font-size: 12px; }
     .size-14 { font-size: 14px; }
     .size-16 { font-size: 16px; }
@@ -15,26 +19,30 @@ body{
     .size-96 { font-size: 96px; }
 
 
+/*PRIMER MARGEN*/
 .margenMD{
 	margin: 1%;
 }
 
+
+/*MARGEN, ALTO Y ANCHO DE IMAGENES REDES SOCIALES*/
 header div img{
 	margin: 5%;
 	width: 50%;
 	height: 50%;
 }
 
+
+/*ALTO Y ANCHO IMAGENES*/
 img{
 	width: 30%;
 	height: 30%;
 }
 
-
+/*COLORES DE FONDO*/
 .primero{
 	background: #5b9aa0;
 }
-
 
 .segundo{
 	background: #d6d4e0;
@@ -49,6 +57,7 @@ img{
 }
 
 
+/*ESPACIOS*/
 .espaciointerno{
 	padding: 1%;
 }
